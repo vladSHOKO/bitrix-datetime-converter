@@ -1,0 +1,12 @@
+{
+    "name": "vladshoko/bitrix-datetime-converter",
+    "description": "A package for date-time converter to and from Bitrix projects",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Vladislav Kuzminov",
+            "email": "vladislav_kuzminov.00@mail.ru"
+        }
+    ],
+    "require": {}
+}
