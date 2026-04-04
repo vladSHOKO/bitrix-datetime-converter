@@ -1,6 +1,7 @@
 {
     "name": "vladshoko/bitrix-datetime-converter",
     "description": "A package for date-time converter to and from Bitrix projects",
+    "license": "MIT",
     "type": "library",
     "authors": [
         {
@@ -10,5 +11,10 @@
     ],
     "require": {
         "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vladshoko\\BitrixDateTimeConverter": "src/"
+        }
     }
 }
