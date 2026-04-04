@@ -8,5 +8,7 @@
             "email": "vladislav_kuzminov.00@mail.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.2"
+    }
 }
