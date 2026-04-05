@@ -21,6 +21,11 @@
         "phpunit/phpunit": "^13.1"
     },
     "scripts": {
-        "full-test": "./vendor/bin/phpunit -c phpunit.xml tests/with-stubs/DateTimeConverterTest.php && ./vendor/bin/phpunit -c phpunit.no-stubs.xml tests/no_stubs/BitrixDateTimeAvailableValidatorTest.php"
+        "test:no-stub": "./vendor/bin/phpunit -c phpunit.no-stubs.xml",
+        "test:with-stub": "./vendor/bin/phpunit -c phpunit.xml",
+        "test": [
+            "@test:with-stub",
+            "@test:no-stub"
+        ]
     }
 }
