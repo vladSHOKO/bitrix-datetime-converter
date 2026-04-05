@@ -4,7 +4,6 @@ declare(strict_types = 1);
 
 namespace Test\Vladshoko\BitrixDateTimeConverter;
 
-use DateTimeImmutable;
 use PHPUnit\Framework\TestCase;
 use Vladshoko\BitrixDateTimeConverter\Converter\DateTimeConverter;
 use Vladshoko\BitrixDateTimeConverter\Validator\BitrixDateTimeAvailableValidator;

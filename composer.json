@@ -21,6 +21,6 @@
         "phpunit/phpunit": "^13.1"
     },
     "scripts": {
-        "full-test": "./vendor/bin/phpunit -c phpunit.xml tests/DateTimeConverterTest.php && ./vendor/bin/phpunit -c phpunit.no-stubs.xml tests/BitrixDateTimeAvailableValidatorTest.php"
+        "full-test": "./vendor/bin/phpunit -c phpunit.xml tests/with-stubs/DateTimeConverterTest.php && ./vendor/bin/phpunit -c phpunit.no-stubs.xml tests/no_stubs/BitrixDateTimeAvailableValidatorTest.php"
     }
 }

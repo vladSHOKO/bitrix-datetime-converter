@@ -12,8 +12,8 @@
          failOnRisky="true"
          failOnWarning="true">
     <testsuites>
-        <testsuite name="default">
-            <directory>tests</directory>
+        <testsuite name="no-stubs">
+            <directory>tests/no-stubs</directory>
         </testsuite>
     </testsuites>
 
