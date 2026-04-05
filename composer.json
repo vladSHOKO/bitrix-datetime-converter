@@ -16,5 +16,8 @@
         "psr-4": {
             "Vladshoko\\BitrixDateTimeConverter\\": "src/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^13.1"
     }
 }
