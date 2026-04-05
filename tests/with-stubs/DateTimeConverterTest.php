@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Test\Vladshoko\BitrixDateTimeConverter;
+namespace Test\Vladshoko\BitrixDateTimeConverter\WithStubs;
 
 use PHPUnit\Framework\TestCase;
 use Vladshoko\BitrixDateTimeConverter\Converter\DateTimeConverter;
