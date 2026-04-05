@@ -15,7 +15,7 @@ class DateTimeConverter
      * @throws BitrixUnavailableException
      */
     public function __construct(
-        private readonly BitrixDateTimeAvailableValidator $validator,
+        private readonly BitrixDateTimeAvailableValidator $validator = new BitrixDateTimeAvailableValidator(),
     ) {
         if (!$this->validator->validate()) {
             throw new BitrixUnavailableException();
