@@ -29,7 +29,7 @@ class DateTimeConverter
         $timezone = $value->getTimezone() ? $value->getTimezone() : null;
 
         return new \Bitrix\Main\Type\DateTime(
-            $value->format('Y-m-d H:i:s'),
+            $value->format($format),
             $format,
             $timezone
         );
