@@ -19,5 +19,8 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^13.1"
+    },
+    "scripts": {
+        "full-test": "./vendor/bin/phpunit -c phpunit.xml tests/DateTimeConverterTest.php && ./vendor/bin/phpunit -c phpunit.no-stubs.xml tests/BitrixDateTimeAvailableValidatorTest.php"
     }
 }
